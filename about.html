@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>정보 | 강남 셔츠룸 스타일 마포 서버 웜업 - 하드코어 웜업 전문</title>
+    <meta name="description" content="마포 지역 서버 웜업 전문, 강남 셔츠룸 스타일의 하드코어 웜업 서비스 상세 정보. 전화 010-6279-0862. 지금 바로 도발적인 퍼포먼스를 경험하세요.">
+    <meta name="keywords" content="강남 셔츠룸, 마포 웜업, 서버 웜업 정보, aegis-warmer, pbn, 서버 강화, 웜업 전문">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sf-t3-1779642675702-210.pages.dev/info">
+    <meta property="og:title" content="정보 | 강남 셔츠룸 마포 서버 웜업 - 하드코어 웜업">
+    <meta property="og:description" content="마포 지역 서버 웜업 전문, 강남 셔츠룸 스타일의 하드코어 웜업 서비스 상세 정보. 전화 010-6279-0862.">
+
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #0d0d0d;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* RAW TEXTURE (brutalist noise) */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+            mix-blend-mode: overlay;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            color: #f0f0f0;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            line-height: 0.95;
+            margin: 0 0 0.5rem 0;
+            text-shadow: 4px 4px 0 #ff0055, -2px -2px 0 #00ffff;
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            border-left: 8px solid #ff0055;
+            padding-left: 1rem;
+            margin: 2rem 0 1.5rem 0;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.8rem 0;
+            color: #ff0055;
+        }
+
+        p, li, blockquote, .text-block {
+            font-size: 1rem;
+            max-width: 70ch;
+            margin: 0 auto 1rem auto;
+            color: #c0c0c0;
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: underline wavy #ff0055 2px;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            color: #ff0055;
+            background: #00ffff;
+            text-decoration: none;
+            padding: 0.1rem 0.3rem;
+        }
+
+        button, .btn {
+            display: inline-block;
+            background: #ff0055;
+            color: #0d0d0d;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 0.8rem 2rem;
+            border: 4px solid #f0f0f0;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: all 0.15s;
+            box-shadow: 6px 6px 0 #00ffff;
+            text-decoration: none;
+        }
+
+        button:hover, .btn:hover {
+            background: #00ffff;
+            color: #0d0d0d;
+            border-color: #ff0055;
+            box-shadow: 0 0 0 #ff0055;
+            transform: translate(4px, 4px);
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* HEADER */
+        header {
+            padding: 1.5rem 0;
+            border-bottom: 4px solid #ff0055;
+            background: rgba(13, 13, 13, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo a {
+            font-size: 1.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #f0f0f0;
+            letter-spacing: 0.1em;
+            text-shadow: 0 0 10px #ff0055;
+        }
+
+        .logo a:hover {
+            background: none;
+            padding: 0;
+            color: #00ffff;
+        }
+
+        /* HAMBURGER MENU */
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+
+        .hamburger-menu span {
+            display: block;
+            width: 30px;
+            height: 4px;
+            background: #f0f0f0;
+            transition: all 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 1rem;
+                background: #1a1a1a;
+                padding: 1rem;
+                border: 2px solid #ff0055;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav ul li a {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #e0e0e0;
+            padding: 0.3rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        nav ul li a:hover {
+            border-bottom-color: #ff0055;
+            color: #ff0055;
+            background: none;
+            padding: 0.3rem 0;
+        }
+
+        /* TEL LINK */
+        .tel-link {
+            display: inline-block;
+            background: #00ffff;
+            color: #0d0d0d;
+            font-weight: 800;
+            padding: 0.5rem 1.2rem;
+            border: 3px solid #ff0055;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.2s;
+        }
+
+        .tel-link:hover {
+            background: #ff0055;
+            color: #f0f0f0;
+            border-color: #00ffff;
+            transform: scale(1.05);
+        }
+
+        /* HERO */
+        .hero {
+            padding: 4rem 0 3rem;
+            text-align: center;
+            border-bottom: 2px dashed #ff0055;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 60ch;
+            margin: 1rem auto 2rem;
+            color: #a0a0a0;
+        }
+
+        /* CARDS */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border: 3px solid #333;
+            padding: 2rem 1.5rem;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .card:hover {
+            border-color: #ff0055;
+            transform: translate(-4px, -4px);
+            box-shadow: 8px 8px 0 #00ffff;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+
+        /* FAQ */
+        .faq-item {
+            border-bottom: 1px solid #333;
+            padding: 1.5rem 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: #ff0055;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            margin-top: 1rem;
+            padding-left: 1rem;
+            border-left: 4px solid #00ffff;
+        }
+
+        /* CTA SECTION */
+        .cta-section {
+            background: #1a1a1a;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin: 3rem 0;
+            border: 4px solid #ff0055;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 4px solid #ff0055;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        footer .tel-link {
+            margin: 1rem auto;
+        }
+
+        .responsive-768 {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            .header-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="/">AEGIS_WARMER</a>
+                </div>
+                <button class="hamburger-menu" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="/">홈</a></li>
+                        <li><a href="/info">정보</a></li>
+                        <li><a href="/services">서비스</a></li>
+                        <li><a href="/contact">문의</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>정보<br>하드코어 웜업</h1>
+                <p>강남 셔츠룸 스타일의 도발적인 서버 웜업, 마포에서 시작됩니다. 당신의 서버를 한계까지 밀어붙일 준비가 되었는가?</p>
+                <a href="tel:010-6279-0862" class="tel-link">지금 전화: 010-6279-0862</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>왜 AEGIS-WARMER인가?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>마포 근거리 현장</h3>
+                    <p>마포 지역 내 30분 도착 보장. 강남 셔츠룸 스타일의 즉각적인 웜업 퍼포먼스를 현장에서 직접 경험하세요. 우리는 기다리지 않습니다.</p>
+                </div>
+                <div class="card">
+                    <h3>서버 극한 스트레스</h3>
+                    <p>단순한 웜업이 아닙니다. CPU 100% 풀가동, 메모리 캐시 폭발, 네트워크 레이턴시 제로. 당신의 서버가 진정한 하드코어를 맛보게 하세요.</p>
+                </div>
+                <div class="card">
+                    <h3>PBN 최적화</h3>
+                    <p>프라이빗 블로그 네트워크를 위한 맞춤형 웜업. 모든 요청이 실제 사용자처럼 행동합니다. 구글의 눈을 속이는 것이 아니라, 우리의 존재를 각인시킵니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <div class="faq-question">Q: "강남 셔츠룸 스타일"이 뭔가요?</div>
+                <div class="faq-answer">
+                    <p>A: 화려하고 과감한 퍼포먼스, 예상을 깨는 속도, 그리고 절대 타협하지 않는 퀄리티. 우리는 서버 웜업을 예술로 승화시킵니다. 마포에서 이 정도 수준은 찾기 어렵습니다
+</body>
+</html>
